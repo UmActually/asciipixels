@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "asciipixels"
-version = "0.1.1"
+version = "0.1.2"
 description = "Generate dynamic ASCII art with images and videos."
 readme = "README.md"
 authors = [{ name = "Leonardo Corona Garza", email = "leocoronag@gmail.com" }]

@@ -1,1 +1,1 @@
-include resources/example.gif
+include src/asciipixels/resources/*.gif

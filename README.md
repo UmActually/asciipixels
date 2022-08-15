@@ -12,7 +12,7 @@ For a more granular control of what the program should do, the `CoreAsciifier` c
 
 What really sets the asciipixels library apart is the _dynamic_ functionality. In the functions `image.dynamic_asciify()` and `video.dynamic_asciify()` some parameters can change over time. The user can pass **callables** that receive the frame number and return the parameter value, rather than passing the hard-coded value itself. In the example below, the `definition` parameter increases by 16 units every frame. It is modeled by a very simple `lambda` expression.
 
-![Bigweld ASCII Art](resources/example.gif)
+![Bigweld ASCII Art](src/asciipixels/resources/example.gif)
 
 ### Basic Usage
 
