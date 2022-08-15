@@ -1,0 +1,24 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asciipixels"
+version = "0.1.0"
+description = "Generate dynamic ASCII art with images and videos."
+readme = "README.md"
+authors = [{ name = "Leonardo Corona Garza", email = "leocoronag@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["ascii", "art", "image", "video", "dynamic"]
+dependencies = [
+    "Pillow >= 9.0.0"
+]
+requires-python = ">=3.6"
+
+[project.scripts]
+asciipixels = "asciipixels.__main__:main"
