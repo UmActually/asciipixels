@@ -1,6 +1,6 @@
 """
 :Authors: Leonardo Corona Garza
-:Version: 0.1.0
+:Version: 0.1.1
 :Dedication: To my grandpa.
 
 asciipixels
@@ -60,4 +60,4 @@ from . import image, video
 from .core import *
 
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
